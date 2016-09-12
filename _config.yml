@@ -69,7 +69,7 @@ ga_domain: s-h-y-github.github.io
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "努力学习中..."
-sidebar-avatar: /img/avatar-shy.bmp      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/avatar-shy.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
