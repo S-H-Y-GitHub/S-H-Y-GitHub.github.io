@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      "Welcome to Hux Blog"
+title:      "欢迎来到率怀一的博客"
 subtitle:   " \"Hello World, Hello Blog\""
-date:       2015-01-29 12:00:00
-author:     "Hux"
+date:       2016-9-12 12:21:51
+author:     "率怀一"
 header-img: "img/post-bg-2015.jpg"
 tags:
     - 生活
@@ -14,7 +14,7 @@ tags:
 
 ## 前言
 
-Hux 的 Blog 就这么开通了。
+率怀一 的 Blog 就这么开通了。
 
 [跳过废话，直接看技术实现 ](#build)
 
