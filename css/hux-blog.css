@@ -1003,7 +1003,7 @@ img::-moz-selection {
 .navbar-default .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 3px;
 }
-/* Hux customize Style for Duoshuo */
+/* Hux customize Style for Duoshuo 
 .comment {
   margin-top: 20px;
 }
@@ -1037,6 +1037,7 @@ img::-moz-selection {
   background: white;
   box-shadow: none;
 }
+*/
 #ds-smilies-tooltip ul.ds-smilies-tabs li a {
   background: white !important;
 }
