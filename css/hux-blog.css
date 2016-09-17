@@ -1,4 +1,4 @@
-﻿@media (min-width: 1200px) {
+@media (min-width: 1200px) {
   .post-container,
   .sidebar-container {
     padding-right: 5%;
@@ -1003,6 +1003,12 @@ img::-moz-selection {
 .navbar-default .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 3px;
 }
+
+/*Shuaihuaiyi style for Duoshuo*/
+.comment #ds-thread #ds-reset .ds-powered-by {
+    display: none;
+}
+
 /* Hux customize Style for Duoshuo 
 .comment {
   margin-top: 20px;
