@@ -85,7 +85,7 @@ final Node<K,V> getNode(int hash, Object key) {
 
 # 附录：源代码 #
 
-### C++运算符测试 ###
+#### C++运算符测试 ####
 
 ```C++
 #include <iostream>
@@ -100,7 +100,7 @@ int main()
 }
 ```
 
-### Java运算符测试 ###
+#### Java运算符测试 ####
 
 ```Java
 public class HelloWorld {
@@ -112,7 +112,7 @@ public class HelloWorld {
 }
 ```
 
-### Java equals()测试 ###
+#### Java equals()测试 ####
 
 ```Java
 public class HelloWorld {
@@ -123,7 +123,7 @@ public class HelloWorld {
     }
 }
 ```
-### Java contains()测试 ###
+#### Java contains()测试 ####
 ```Java
 import java.util.HashSet;
 public class HelloWorld {
@@ -137,7 +137,7 @@ public class HelloWorld {
     }
 }
 ```
-###Java 自定义类contains()测试 ###
+#### Java 自定义类contains()测试 ####
 ```java
 package HelloWorld;
 import java.util.HashSet;
