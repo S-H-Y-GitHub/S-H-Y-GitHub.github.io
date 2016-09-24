@@ -4,7 +4,7 @@ title:      "欢迎来到率怀一的博客"
 subtitle:   " \"Hello World, Hello Blog\""
 date:       2016/9/19 0:51:32 
 author:     "率怀一"
-header-img: "img\in-post\2016-09-19-hello-world\post-bg.jpg"
+header-img: "img/in-post/2016-09-19-hello-world/post-bg.jpg"
 catalog: true
 tags:
     - 生活
