@@ -95,8 +95,8 @@ int main()
 {
 	string a("123");
 	string b("123");
-   	cout << (a==b);
-   	return 0;
+	cout << (a==b);
+	return 0;
 }
 ```
 
@@ -104,11 +104,11 @@ int main()
 
 ```java
 public class HelloWorld {
-    public static void main(String []args) {
+	public static void main(String []args) {
 		String a = new String("123");
 		String b = new String("123");
-       	System.out.println(a==b);
-    }
+	System.out.println(a==b);
+	}
 }
 ```
 
@@ -116,11 +116,11 @@ public class HelloWorld {
 
 ```java
 public class HelloWorld {
-    public static void main(String []args) {
+	public static void main(String []args) {
 		String a = new String("123");
 		String b = new String("123");
        	System.out.println(a.equals(b));
-    }
+	}
 }
 ```
 
@@ -129,14 +129,13 @@ public class HelloWorld {
 ```java
 import java.util.HashSet;
 public class HelloWorld {
-    public static void main(String []args) {
-		
+    	public static void main(String []args) {
 		String a = new String("123");
 		String b = new String("123");
 		HashSet <String> c = new HashSet <String>();
 		c.add(a);
-       	System.out.println(c.contains(b));
-    }
+	System.out.println(c.contains(b));
+	}
 }
 ```
 
@@ -147,14 +146,14 @@ package HelloWorld;
 import java.util.HashSet;
 public class HelloWorld {
 	static class Name {  
-    	String first;   
-    	String last;   
-    	Name(String first, String last) {   
-        	this.first = first;   
-        	this.last = last;   
-    	}
+		String first;   
+    		String last;   
+    		Name(String first, String last) {   
+        		this.first = first;   
+        		this.last = last;   
+    		}
 	}
-    public static void main(String []args) {
+	public static void main(String []args) {
 		Name a = new Name("123","456");
 		Name b = new Name("123","456");
 		HashSet <Name> c = new HashSet <Name>();
