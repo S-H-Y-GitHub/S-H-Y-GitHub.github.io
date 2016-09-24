@@ -87,7 +87,7 @@ final Node<K,V> getNode(int hash, Object key) {
 
 #### C++运算符测试 ####
 
-```C++
+```c++
 #include <iostream>
 using namespace std;
 
@@ -102,7 +102,7 @@ int main()
 
 #### Java运算符测试 ####
 
-```Java
+```java
 public class HelloWorld {
     public static void main(String []args) {
 		String a = new String("123");
@@ -114,7 +114,7 @@ public class HelloWorld {
 
 #### Java equals()测试 ####
 
-```Java
+```java
 public class HelloWorld {
     public static void main(String []args) {
 		String a = new String("123");
@@ -123,9 +123,10 @@ public class HelloWorld {
     }
 }
 ```
+
 #### Java contains()测试 ####
 
-```Java
+```java
 import java.util.HashSet;
 public class HelloWorld {
     public static void main(String []args) {
