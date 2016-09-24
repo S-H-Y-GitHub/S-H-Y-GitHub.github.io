@@ -48,6 +48,7 @@ tags:
 。
 。
 这就很尴尬了，为什么会这样呢？原因在Java源码中可以找到。
+
 ```java
 public boolean contains(Object o) {
         return map.containsKey(o);
@@ -79,11 +80,12 @@ final Node<K,V> getNode(int hash, Object key) {
         return null;
     }
 ```
+
 `contains()`对元素的判断基于元素的`hashcode()`和`equals()`两个方法，如果要对自定义类进行`contains()`操作，必须先将这两个方法定义。总而言之不建议对自定义类使用`contains()`就是了。
 
 # 附录：源代码 #
 
-## C++运算符测试 ##
+### C++运算符测试 ###
 
 ```C++
 #include <iostream>
@@ -98,7 +100,7 @@ int main()
 }
 ```
 
-## Java运算符测试 ##
+### Java运算符测试 ###
 
 ```Java
 public class HelloWorld {
@@ -110,7 +112,7 @@ public class HelloWorld {
 }
 ```
 
-## Java equals()测试 ##
+### Java equals()测试 ###
 
 ```Java
 public class HelloWorld {
@@ -121,7 +123,7 @@ public class HelloWorld {
     }
 }
 ```
-## Java contains()测试 ##
+### Java contains()测试 ###
 ```Java
 import java.util.HashSet;
 public class HelloWorld {
@@ -135,7 +137,7 @@ public class HelloWorld {
     }
 }
 ```
-##Java 自定义类contains()测试 ##
+###Java 自定义类contains()测试 ###
 ```java
 package HelloWorld;
 import java.util.HashSet;
