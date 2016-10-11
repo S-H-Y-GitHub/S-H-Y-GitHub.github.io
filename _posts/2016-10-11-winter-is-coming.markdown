@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Winter has come"
+title:      "Winter is coming"
 subtitle:   "sad news"
 date:       2016/10/11 17:40:50  
 author:     "率怀一"
