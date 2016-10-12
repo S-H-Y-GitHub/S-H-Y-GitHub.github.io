@@ -1,0 +1,72 @@
+---
+layout:     post
+title:      "Git学习笔记"
+subtitle:   "Git note"
+date:       2016/10/12 20:06:24
+author:     "率怀一"
+header-img: "img/in-post/2016-10-12-git-note/post-bg.jpg"
+catalog: true
+tags:
+    - Git
+    - 学习笔记
+---
+
+## 撤销修改 ##
+
+#### reset ####
+
+命令格式：
+```
+git reset [-q] [<tree-ish>] [--] <paths>…​
+git reset (--patch | -p) [<tree-ish>] [--] [<paths>…​]
+git reset [--soft | --mixed [-N] | --hard | --merge | --keep] [-q] [<commit>]
+```
+
+reset命令可以撤销commit。执行这个命令之后会将HEAD指针移动到指定的commit，之后的commit全部不会在`git log`中呈现，但**据说**还会在本地仓库中保留一段时间，使用`git reflog`可以查看。
+
+reset有三种模式：soft，mixed和hard。
+
+- `--hard`：重设（reset） index和working directory，自从<commit>以来在working directory中的任何改变都被丢弃，并把HEAD指向<commit>。 
+- `--soft`：index和working directory中的内容不作任何改变，仅仅把HEAD指向<commit>。这个模式的效果是，执行完毕后，自从<commit>以来的所有改变都会显示在git status的"Changes to be committed"中。 
+- `--mixed`：仅reset index，但是不reset working directory。这个模式是默认模式，即当不显示告知git reset模式时，会使用mixed模式。这个模式的效果是，working directory中文件的修改都会被保留，不会丢弃，但是也不会被标记成"Changes to be committed"，但是会打出什么还未被更新的报告。
+
+#### checkout ####
+
+命令格式：
+
+```
+git checkout [-q] [-f] [-m] [<branch>]
+git checkout [-q] [-f] [-m] --detach [<branch>]
+git checkout [-q] [-f] [-m] [--detach] <commit>
+git checkout [-q] [-f] [-m] [[-b|-B|--orphan] <new_branch>] [<start_point>]
+git checkout [-f|--ours|--theirs|-m|--conflict=<style>] [<tree-ish>] [--] <paths>…​
+git checkout [-p|--patch] [<tree-ish>] [--] [<paths>…​]
+```
+
+checkout命令不会修改版本库，只会对工作目录和暂存区进行修改。大多时候不用来撤销，而是用来切换分支。当然切到本分支的话就是撤销啦。
+
+#### revert ####
+
+命令格式：
+
+```
+git revert [--[no-]edit] [-n] [-m parent-number] [-s] [-S[<keyid>]] <commit>…​
+git revert --continue
+git revert --quit
+git revert --abort
+```
+
+revert命令会创建一个新的提交来重置之前提交进行的更改。
+
+## 分支管理 ##
+
+`--merged` 与 `--no-merged` 这两个有用的选项可以过滤这个列表中已经合并或尚未合并到**当前分支**的分支。 
+
+
+----------
+
+<div class = "text-muted">更新中...如果以后遇到值得注意的地方还会写在这里</div>
+
+## 参考文档及扩展阅读
+
+1. [Git官方中文文档](https://git-scm.com/book/zh/v2)
