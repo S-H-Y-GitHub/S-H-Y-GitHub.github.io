@@ -1,10 +1,10 @@
 ---
 layout:     post
 title:      "Git学习笔记"
-subtitle:   "Git note"
+subtitle:   "Git notes"
 date:       2016/10/12 20:06:24
 author:     "率怀一"
-header-img: "img/in-post/2016-10-12-git-note/post-bg.jpg"
+header-img: "img/in-post/2016-10-12-git-notes/post-bg.jpg"
 catalog: true
 tags:
     - Git
