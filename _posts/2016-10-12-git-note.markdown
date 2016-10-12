@@ -16,6 +16,7 @@ tags:
 #### reset ####
 
 命令格式：
+
 ```
 git reset [-q] [<tree-ish>] [--] <paths>…​
 git reset (--patch | -p) [<tree-ish>] [--] [<paths>…​]
@@ -65,7 +66,7 @@ revert命令会创建一个新的提交来重置之前提交进行的更改。
 
 ----------
 
-<div class = "text-muted">更新中...如果以后遇到值得注意的地方还会写在这里</div>
+<div class = "text-muted">更新中...以后如果遇到值得注意的地方还会写在这里</div>
 
 ## 参考文档及扩展阅读
 
