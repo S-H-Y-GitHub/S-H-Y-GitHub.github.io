@@ -27,8 +27,8 @@ reset命令可以撤销commit。执行这个命令之后会将HEAD指针移动�
 
 reset有三种模式：soft，mixed和hard。
 
-- `--hard`：重设（reset） index和working directory，自从<commit>以来在working directory中的任何改变都被丢弃，并把HEAD指向<commit>。 
-- `--soft`：index和working directory中的内容不作任何改变，仅仅把HEAD指向<commit>。这个模式的效果是，执行完毕后，自从<commit>以来的所有改变都会显示在git status的"Changes to be committed"中。 
+- `--hard`：重设（reset） index和working directory，自从`<commit>`以来在working directory中的任何改变都被丢弃，并把HEAD指向`<commit>`。 
+- `--soft`：index和working directory中的内容不作任何改变，仅仅把HEAD指向`<commit>`。这个模式的效果是，执行完毕后，自从`<commit>`以来的所有改变都会显示在git status的"Changes to be committed"中。 
 - `--mixed`：仅reset index，但是不reset working directory。这个模式是默认模式，即当不显示告知git reset模式时，会使用mixed模式。这个模式的效果是，working directory中文件的修改都会被保留，不会丢弃，但是也不会被标记成"Changes to be committed"，但是会打出什么还未被更新的报告。
 
 #### checkout ####
