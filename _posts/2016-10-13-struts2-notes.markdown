@@ -8,6 +8,8 @@ header-img: "img/in-post/2016-10-13-struts2-notes/post-bg.png"
 catalog: true
 tags:
     - Struts2
+    - Java
+    - web开发
     - 学习笔记
 ---
 
@@ -118,7 +120,7 @@ web.xml配置：
 ## OGNL ##
 
 > 对象导航图语言（Object Graph Navigation Language），简称OGNL，是应用于Java中的一个开源的表达式语言（Expression Language），它被集成在Struts2等框架中，作用是对数据进行访问，它拥有类型转换、访问对象方法、操作集合对象等功能。   
-> <div class = 'text-right'>——[维基百科](https://zh.wikipedia.org/wiki/%E5%AF%B9%E8%B1%A1%E5%AF%BC%E8%88%AA%E5%9B%BE%E8%AF%AD%E8%A8%80) </div>
+> <div class = 'text-right'>——<a href = "https://zh.wikipedia.org/wiki/%E5%AF%B9%E8%B1%A1%E5%AF%BC%E8%88%AA%E5%9B%BE%E8%AF%AD%E8%A8%80">维基百科</a> </div>
 
 在使用Struts时，想要使用一些比较高级的功能，OGNL是必不可少的。详细信息请参阅<a href = "#ref">参考文档</a>一节。
 
