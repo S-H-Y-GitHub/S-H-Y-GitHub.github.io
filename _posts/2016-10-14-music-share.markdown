@@ -5,7 +5,7 @@ subtitle:   "Music share"
 date:       2016/10/14 16:24:03 
 author:     "率怀一"
 header-img: "img/in-post/2016-10-14-music-share/post-bg.jpg"
-catalog: false
+catalog: true
 tags:
     - 生活
     - 音乐分享
@@ -21,11 +21,11 @@ VocalID古风曲，逸恋仙居原创音乐团队出品。这首歌简单来讲�
 
 #### PV ####
 
-<iframe src="www.bilibili.com/html/player.html?aid=2474005&page=1" scrolling="no" border="0" frameborder="no" framespacing="0"></iframe>
+<iframe src="www.bilibili.com/html/player.html?aid=2474005&page=1" scrolling="no" border="0" frameborder="no" framespacing="0"/>
 
 #### 音乐 ####
 
-<embed src="http://music.163.com/style/swf/widget.swf?sid=33075087&type=2&auto=0&width=320&height=66" width="340" height="86"  allowNetworking="all"></embed>
+<embed src="http://music.163.com/style/swf/widget.swf?sid=33075087&type=2&auto=0&width=320&height=66" width="340" height="86"  allowNetworking="all"/>
 
 #### 歌词 ####
 
@@ -105,7 +105,7 @@ VocalID古风曲，逸恋仙居原创音乐团队出品。这首歌简单来讲�
 
 #### 音乐 ####
 
-<embed src="http://music.163.com/style/swf/widget.swf?sid=407761576&type=2&auto=0&width=320&height=66" width="340" height="86"  allowNetworking="all"></embed>
+<embed src="http://music.163.com/style/swf/widget.swf?sid=407761576&type=2&auto=0&width=320&height=66" width="340" height="86"  allowNetworking="all"/>
 
 #### 歌词 ####
 
