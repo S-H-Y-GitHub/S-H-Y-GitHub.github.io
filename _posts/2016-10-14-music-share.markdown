@@ -21,7 +21,7 @@ VocalID古风曲，逸恋仙居原创音乐团队出品。这首歌简单来讲�
 
 #### PV ####
 
-<embed src="https://share.acg.tv/flash.swf?aid=2474005&page=1" width="100%" height="100%"  allowNetworking="all"/>
+<embed height="452" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="http://share.acg.tv/flash.swf" flashvars="aid=2474005&page=1" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"/>
 
 #### 音乐 ####
 
