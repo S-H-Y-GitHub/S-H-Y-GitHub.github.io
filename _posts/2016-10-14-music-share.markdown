@@ -2,7 +2,7 @@
 layout:     post
 title:      "分享两首优质音乐"
 subtitle:   "Music share"
-date:       2016/10/12 20:06:24
+date:       2016/10/14 16:24:03 
 author:     "率怀一"
 header-img: "img/in-post/2016-10-14-music-share/post-bg.jpg"
 catalog: false
