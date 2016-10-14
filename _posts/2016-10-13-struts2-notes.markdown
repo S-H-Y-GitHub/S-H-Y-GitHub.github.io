@@ -132,4 +132,4 @@ web.xml配置：
 2. [Struts2官方文档](http://struts.apache.org/docs/home.html)
 3. [OGNL官网](https://commons.apache.org/proper/commons-ognl/)
 4. [OGNL语言介绍](https://commons.apache.org/proper/commons-ognl/language-guide.html)
-5. [Struts2Eclipse项目开发中文指导（较简略）](http://www.blogjava.net/max/category/16130.html)
+5. [Struts2Eclipse项目开发中文指导](http://www.blogjava.net/max/category/16130.html)（较简略）
