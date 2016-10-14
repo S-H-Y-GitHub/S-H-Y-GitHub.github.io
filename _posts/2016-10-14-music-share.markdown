@@ -21,7 +21,7 @@ VocalID古风曲，逸恋仙居原创音乐团队出品。这首歌简单来讲�
 
 #### PV ####
 
-<iframe src="www.bilibili.com/html/player.html?aid=2474005&page=1" scrolling="no" border="0" frameborder="no" framespacing="0"/>
+<iframe src="www.bilibili.com/html/player.html?aid=2474005&page=1" scrolling="no" border="0" frameborder="no" framespacing="0"></iframe>
 
 #### 音乐 ####
 
