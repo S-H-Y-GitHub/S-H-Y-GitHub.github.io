@@ -21,11 +21,11 @@ VocalID古风曲，逸恋仙居原创音乐团队出品。这首歌简单来讲�
 
 #### PV ####
 
-<iframe src="www.bilibili.com/html/player.html?aid=2474005&page=1" scrolling="no" border="0" frameborder="no" framespacing="0"></iframe>
+<embed src="www.bilibili.com/html/player.html?aid=2474005&page=1" width="100%" height="100%"  allowNetworking="all"/>
 
 #### 音乐 ####
 
-<embed src="http://music.163.com/style/swf/widget.swf?sid=33075087&type=2&auto=0&width=320&height=66" width="340" height="86"  allowNetworking="all"/>
+<embed src="https://music.163.com/style/swf/widget.swf?sid=33075087&type=2&auto=0&width=320&height=66" width="340" height="86"  allowNetworking="all"/>
 
 #### 歌词 ####
 
@@ -105,7 +105,7 @@ VocalID古风曲，逸恋仙居原创音乐团队出品。这首歌简单来讲�
 
 #### 音乐 ####
 
-<embed src="http://music.163.com/style/swf/widget.swf?sid=407761576&type=2&auto=0&width=320&height=66" width="340" height="86"  allowNetworking="all"/>
+<embed src="https://music.163.com/style/swf/widget.swf?sid=407761576&type=2&auto=0&width=320&height=66" width="340" height="86"  allowNetworking="all"/>
 
 #### 歌词 ####
 
