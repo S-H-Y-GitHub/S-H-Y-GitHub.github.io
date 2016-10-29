@@ -119,5 +119,5 @@ int main()
 ## 参考阅读 ##
 
 1. [C++ 标准文档](http://www.open-std.org/jtc1/sc22/wg21/)
-2. http://en.cppreference.com/
-3. http://www.cplusplus.com/
+2. [http://en.cppreference.com/](http://en.cppreference.com/)
+3. [http://www.cplusplus.com/](http://www.cplusplus.com/)
