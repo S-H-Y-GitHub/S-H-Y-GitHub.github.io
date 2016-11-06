@@ -1,0 +1,79 @@
+---
+layout:     post
+title:      "JavaBean详解"
+subtitle:   "Something about JavaBean"
+date:       2016/11/6 13:01:32 
+author:     "率怀一"
+header-img: "img/in-post/2016-11-06-JavaBean/post-bg.jpg"
+catalog: true
+tags:
+    - Java
+    - web开发
+    - 学习笔记
+    - 代码风格
+---
+
+## 简介 ##
+
+JavaBean是特殊的Java类，使用Java语言书写，并且遵守JavaBean API规范，广泛用于Java EE开发。
+
+它与一般的Java类的不同之处在于：
+
+- 提供一个默认的无参构造函数。
+- 需要被序列化并且实现了Serializable接口。
+- 可能有一系列可读写属性。
+- 可能有一系列的"getter"或"setter"方法。
+
+一个典型的JavaBean例子：
+
+```Java
+package shy.github.domain;
+
+public class StudentsBean implements Java.io.Serializable {
+   private String firstName = null;
+   private String lastName = null;
+   private int age = 0;
+
+   public StudentsBean() {
+   }
+   public String getFirstName() {
+      return firstName;
+   }
+   public String getLastName() {
+      return lastName;
+   }
+   public int getAge() {
+      return age;
+   }
+
+   public void setFirstName(String firstName) {
+      this.firstName = firstName;
+   }
+   public void setLastName(String lastName) {
+      this.lastName = lastName;
+   }
+   public void setAge(int age) {
+      this.age = age;
+   }
+}
+```
+
+## 构造函数 ##
+
+JavaBean需要一个无参构造函数，即建立JavaBean实例时可以不指定参数。要实现这一点，要么不对构造函数进行定义，Java会默认定义一个无参构造函数；如果定义了有参数的构造函数，或者对构造函数中执行的代码有特殊要求，就必须重载一个无参构造函数。
+
+对JavaBean定义无参构造函数是因为多数架构都会默认调用这个函数进行JavaBean的实例化，大多数用户也会使用这个方法。
+
+## 可序列化 ##
+
+JavaBean应当可以被序列化。序列化是一个轻量级的数据持久化手段，主要原理是将对象实例组织成文件存储到磁盘，下次执行时再读取，还原对象的状态。有一些架构依赖于这一特性进行工作，如果你定义的JavaBean没有实现序列化，运行时很可能会报错，而且你将不能很方便保存对象状态。
+
+并不是所有的JavaBean都有持久化需求，所以序列化的实现并不是必须的，但是我还是推荐对JavaBean进行序列化。
+
+实现序列化的手段十分简单，将你的JavaBean实现Serializable接口即可：`public class StudentsBean implements Java.io.Serializable`
+
+## 属性的getter和setter方法 ##
+
+JavaBean中的属性必须是私有类型，通过公有的getter和setter方法对属性进行访问。方法的命名必须符合驼峰法命名规范，即`firstName`和`setFirstName()`，而不是`first-name`或`set-first-name`，更不是`firstname`之类什么什么规范都不符合的奇怪方式。如果命名出现错误，轻则导致大家用起来不方便，重则导致一些架构中的内置方法不能正常运行。
+
+JavaBean中的属性可以规定读写权限，对于不想开放读写权限的属性，不为它定义getter或setter方法即可。
