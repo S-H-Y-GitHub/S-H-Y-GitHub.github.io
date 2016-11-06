@@ -4,7 +4,7 @@ title:      "Struts2学习笔记"
 subtitle:   "Struts2 notes"
 date:       2016/10/13
 author:     "率怀一"
-header-img: "img/in-post/2016-10-13-struts2-notes/post-bg.png"
+header-img: "img/in-post/2016-10-13-struts2-notes/post-bg.jpg"
 catalog: true
 tags:
     - Struts2
