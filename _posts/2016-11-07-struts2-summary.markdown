@@ -4,7 +4,7 @@ title:      "Struts2知识总结"
 subtitle:   "Struts2 Summary"
 date:       2016/11/7
 author:     "率怀一"
-header-img: "img/in-post/2016-11-06-javabean/post-bg.jpg"
+header-img: "img/in-post/2016-11-07-struts2-summary/post-bg.jpg"
 catalog: true
 tags:
     - Java
@@ -29,4 +29,4 @@ Struts2是一个很著名的Java EE表现层框架。之前我也有对Struts2�
 
 百度网盘：链接: [http://pan.baidu.com/s/1jHGPMuy](http://pan.baidu.com/s/1jHGPMuy) 密码: java
 
-直接下载：<a href = "\resource\document\2016-11-07-struts2-summary\Struts2知识总结.xmind" download = "Struts2知识总结">Struts2知识总结.xmind</a>
+直接下载：<a href = "\resource\document\2016-11-07-struts2-summary\Struts2知识总结.xmind" download = "Struts2知识总结.xmind">Struts2知识总结.xmind</a>
