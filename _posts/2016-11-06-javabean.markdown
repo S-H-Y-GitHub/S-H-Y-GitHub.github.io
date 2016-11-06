@@ -29,7 +29,7 @@ JavaBean是特殊的Java类，使用Java语言书写，并且遵守JavaBean API�
 ```java
 package shy.github.domain;
 
-public class StudentsBean implements Java.io.Serializable {
+public class StudentsBean implements java.io.Serializable {
    private String firstName = null;
    private String lastName = null;
    private int age = 0;
@@ -70,7 +70,7 @@ JavaBean应当可以被序列化。序列化是一个轻量级的数据持久化
 
 并不是所有的JavaBean都有持久化需求，所以序列化的实现并不是必须的，但是我还是推荐对JavaBean进行序列化。
 
-实现序列化的手段十分简单，将你的JavaBean实现Serializable接口即可：`public class StudentsBean implements Java.io.Serializable`
+实现序列化的手段十分简单，将你的JavaBean实现Serializable接口即可：`public class StudentsBean implements java.io.Serializable`
 
 ## 属性的getter和setter方法 ##
 
