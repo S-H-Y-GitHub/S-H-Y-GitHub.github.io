@@ -26,7 +26,7 @@ JavaBean是特殊的Java类，使用Java语言书写，并且遵守JavaBean API�
 
 一个典型的JavaBean例子：
 
-```Java
+```java
 package shy.github.domain;
 
 public class StudentsBean implements Java.io.Serializable {
