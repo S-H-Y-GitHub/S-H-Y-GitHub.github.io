@@ -4,7 +4,7 @@ title:      "JavaBean详解"
 subtitle:   "Something about JavaBean"
 date:       2016/11/6 13:01:32 
 author:     "率怀一"
-header-img: "img/in-post/2016-11-06-JavaBean/post-bg.jpg"
+header-img: "img/in-post/2016-11-06-javabean/post-bg.jpg"
 catalog: true
 tags:
     - Java
