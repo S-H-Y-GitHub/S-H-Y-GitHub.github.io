@@ -25,7 +25,7 @@ PS:异国迷宫的十字路口这个动漫虽然冷门，但的确是佳作啊�
 
 百度网盘：链接: [http://pan.baidu.com/s/1kUIIT75](http://pan.baidu.com/s/1kUIIT75) 密码:怀1
 
-直接下载（不建议使用，多半会很慢）：<a href = "\media\2016-10-16-tookukunhe\東山奈央,中島愛 - 远く君へ.mp3" download = "東山奈央,中島愛 - 远く君へ">東山奈央,中島愛 - 远く君へ.mp3</a>
+直接下载（不建议使用，多半会很慢）：<a href = "\resource\media\2016-10-16-tookukunhe\東山奈央,中島愛 - 远く君へ.mp3" download = "東山奈央,中島愛 - 远く君へ">東山奈央,中島愛 - 远く君へ.mp3</a>
 
 ## 试听 ##
 
