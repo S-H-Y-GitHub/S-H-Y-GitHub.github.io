@@ -5,7 +5,7 @@ subtitle:   "Vim Cheat Sheet"
 date:       2017/2/11 15:27:36 
 author:     "率怀一"
 header-img: "img/in-post/2017-02-11-vim-cheat-sheet/post-bg.jpg"
-catalog: false
+catalog: true
 tags:
     - Linux
     - Vim
@@ -28,7 +28,7 @@ Vim有三种基本工作模式：
 
 下面这张图片显示了几乎所有的Vi命令模式下的命令，有着很强的参考价值。
 
-![](img\in-post\2017-02-11-vim-cheat-sheet\19105004_eXTo.jpg)
+![](\img\in-post\2017-02-11-vim-cheat-sheet\19105004_eXTo.jpg)
 
 # 文本输入模式 #
 
