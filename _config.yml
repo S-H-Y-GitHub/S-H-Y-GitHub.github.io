@@ -6,7 +6,7 @@ header-img: img/home-bg.jpg
 email: 932495000@qq.com
 description: "一个准程序员的小窝(๑•̀ㅂ•́)و✧"
 keyword: ""
-url: "https://s-h-y-github.github.io/"              # your host, for absolute URL
+url: "https://s-h-y-github.github.io"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
