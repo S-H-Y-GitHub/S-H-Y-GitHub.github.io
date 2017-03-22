@@ -11,7 +11,7 @@ tags:
     - 学习笔记
 ---
 
-    http://www.cnblogs.com/lovebread/archive/2009/11/23/1609122.html
+> http://www.cnblogs.com/lovebread/archive/2009/11/23/1609122.html
 
 1、按字节读取文件内容
 2、按字符读取文件内容
